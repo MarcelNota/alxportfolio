@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .navLink {
+    @apply px-1 text-white font-semibold hover:text-gray-400 ease-in duration-150;
+  }
+
+  .escope {
+    @apply flex w-full px-40 py-20 gap-x-16 bg-gray-800 text-white
+  }
+}
