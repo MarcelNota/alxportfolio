@@ -2,15 +2,16 @@ import Image from "next/image";
 
 export function AboutMe() {
   return (
-    <div className="flex w-full px-40 py-20 gap-x-16 bg-gray-800 text-white">
+    <div className="flex w-full px-40 py-20 gap-x-16 bg-gray-800 text-white items-center" id="aboutme">
       <Image
         src={"/img/aboutme.jpg"}
         width={1000}
         height={1000}
-        className="w-1/3 h-[420px]"
+        className="w-1/3 h-[420px] rounded-md"
+        alt="img"
       />
       <div className="pt-5">
-        <h2 className="text-4xl font-semibold">About Me</h2>
+        <h2 className="header mb-5">About Me</h2>
         <p className="text-base  font-semibold ">
           I’m a passionate Backend Developer who loves building scalable,
           efficient, and secure server-side applications. With a strong

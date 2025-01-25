@@ -1,10 +1,17 @@
+"use client"
+
 import Image from "next/image";
 import styles from "./banner.module.css";
 import { NavBar } from "./my_components/navbar";
 
 export default function Banner() {
+
+    const downloadCv = ()=> {
+        alert("Aqui fica a funcao de download")
+    }
+
   return (
-    <div className="w-full text-white">
+    <div className="w-full text-white" id="banner">
       <div className={`${styles.banner} h-screen`}>
         <NavBar />
         <h1 className="text-center text-[50px] mt-44">
@@ -19,6 +26,7 @@ export default function Banner() {
           solving complex problems, and collaborating with cross-functional
           teams to deliver high-quality software solutions.
         </p>
+        <button className="border px-10 py-3 font-semibold text-lg rounded-md border-yellow-500 hover:bg-yellow-500 ease-in duration-150" onClick={downloadCv}>Downloa My CV</button>
         <div className="flex gap-x-3 ">
             <a href="#">LinkDin</a>
             <a href="#">Facebook</a>

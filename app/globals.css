@@ -10,4 +10,12 @@
   .escope {
     @apply flex w-full px-40 py-20 gap-x-16 bg-gray-800 text-white
   }
+
+  .header {
+    @apply text-4xl font-semibold
+  }
+
+  .input {
+    @apply rounded-md outline-none border-2 border-gray-400 focus:border-yellow-500 w-full p-3 bg-transparent
+  }
 }
