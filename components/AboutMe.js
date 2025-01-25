@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function AboutMe() {
   return (
-    <div className="flex w-full px-40 py-20 gap-x-16 bg-gray-800 text-white items-center" id="aboutme">
+    <div className="flex w-full px-40 py-20 gap-x-16 bg-primary/90 text-white items-center" id="aboutme">
       <Image
         src={"/img/aboutme.jpg"}
         width={1000}

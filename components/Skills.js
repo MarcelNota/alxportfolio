@@ -1,6 +1,6 @@
 export function Skills() {
   return (
-    <div className="escope justify-center flex-col" id="skills">
+    <div className="escope justify-center flex-col bg-primary" id="skills">
       <h2 className="header text-center">My Skills</h2>
       <div className="flex gap-x-20 mt-10">
         <div className="w-[90%]">
