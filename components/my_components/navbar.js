@@ -1,3 +1,4 @@
+"use client"
 export function NavBar(){
     return(
         <nav className="flex justify-center gap-x-3 py-4">

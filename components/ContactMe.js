@@ -5,6 +5,7 @@ import { useState } from "react";
 export function ContactMe() {
   const [from, setFrom] = useState("");
   const [message, setMessage] = useState("");
+  const regex = /^[a-zA-Z0-9@.]+$/;
 
   const sendMessage = (e) => {
     e.preventDefault();
@@ -14,7 +15,7 @@ export function ContactMe() {
     const encodedMessage = encodeURIComponent(message);
 
     // Criando a URL mailto
-    const mailtoUrl = `mailto:nurdinebacar@gmail.com?subject=Message%20From%20${encodedFrom}&body=${encodedMessage}`;
+    const mailtoUrl = `mailto:n3gr1t0.mn@gmail.com?subject=Message%20From%20${encodedFrom}&body=${encodedMessage}`;
 
     // Abrindo a URL do mailto para enviar o e-mail
     window.location.href = mailtoUrl;
@@ -33,8 +34,12 @@ export function ContactMe() {
           <input
             type="text"
             className="input mb-3"
-            placeholder="Message From"
-            onChange={(e) => setFrom(e.target.value)}
+            placeholder="Message From. ex.: yourmail@gmail.com"
+            onChange={(e) => {
+              if (/^[^0-9]*$/.test(e.target.value)) {
+                setFrom(e.target.value); // Atualiza o estado se a entrada não tiver números
+              }
+            }}
           />
           <textarea
             name="mensagem"

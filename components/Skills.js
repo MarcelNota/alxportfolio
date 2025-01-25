@@ -1,3 +1,6 @@
+
+"use client"
+
 export function Skills() {
   return (
     <div className="escope justify-center flex-col bg-primary" id="skills">
