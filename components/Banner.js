@@ -37,9 +37,10 @@ export default function Banner() {
             Downloa My CV
           </button>
           <div className="flex gap-x-3 ">
-            <a href="#">LinkDin</a>
-            <a href="#">Facebook</a>
-            <a href="#">GitHUb</a>
+          <a href="https://www.linkedin.com/in/marcelnota" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.facebook.com/Yeahpzy/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://github.com/MarcelNota" target="_blank" rel="noopener noreferrer">GitHub</a>
+
           </div>
         </div>
       </div>

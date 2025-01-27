@@ -11,14 +11,14 @@ export function Skills() {
             All the skills that i hvae inn thatr filed of work are mentioned
           </h6>
           <p>
-            Backend Developer – [Company Name] | [Location] | [Start Date] –
+            Backend Developer  –
             Present Developed and maintained RESTful APIs used by thousands of
             users daily. Optimized database queries, reducing response times by
             30%. Implemented authentication and security best practices,
             improving system integrity. Integrated third-party services (payment
             gateways, external APIs). Collaborated with frontend developers and
             DevOps teams to improve deployment efficiency. Backend Developer
-            Intern – [Company Name] | [Location] | [Start Date] – [End Date]
+            Intern 
             Assisted in building microservices for a scalable backend
             architecture. Wrote unit and integration tests, increasing test
             coverage by 20%. Researched and implemented caching strategies,

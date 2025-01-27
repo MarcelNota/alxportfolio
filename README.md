@@ -1,3 +1,35 @@
+Portfolio Project
+Author: Marcel Nota
+Description
+This is my personal portfolio, developed to showcase my skills and projects as a web developer. The portfolio includes information about me, my projects, contact options, and an interactive display of my work. It was built with modern technologies and best practices for web development.
+
+Objective
+The objective of this portfolio is to present my work in a clear and professional manner, providing a platform for potential employers, clients, or collaborators to interact with me. It was designed to be responsive, focusing on user experience, and includes a dynamic projects section, an about me section, and a functional contact form.
+
+Features
+About Me Section: A personal introduction with a brief description of my journey as a developer.
+Projects Section: Display of my latest projects, with links and details.
+Contact Form: A simple form that allows visitors to reach out to me.
+Responsive Design: The interface adapts to different screen sizes, ensuring a good experience on mobile and desktop devices.
+Interactivity: Elements like animations and transitions to enhance the user experience.
+Technologies Used
+Frontend:
+HTML: For structuring content.
+CSS: For styling and responsive design.
+JavaScript: For interactivity, such as handling the contact form submission.
+React: For building the frontend using reusable components.
+Tailwind CSS: For facilitating the creation of modern, responsive designs.
+Tools and Libraries:
+Vercel: For deploying the portfolio.
+GitHub Pages: Used to host the public repository.
+Others:
+Font Awesome: For social and other graphical icons.
+EmailJS or Formspree: For sending the contact form to my email.
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
